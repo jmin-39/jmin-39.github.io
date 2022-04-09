@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "text"
+subtitle:   "Linux Basic"
+categories: development
+tags: linux
+comments: true
+---
+
+
+test
+	
+	 
