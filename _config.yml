@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               TODO : 제목 바꾸기
+title:               TODO
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -13,12 +13,12 @@ url:                 https://jmin-39.github.io/
 baseurl:             ""
 
 # A very short description of your page
-tagline:             TODO : 바꾸기
+tagline:             TODO
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  TODO : 바꾸기
+  TODO
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -26,7 +26,7 @@ author:
   email:             cosmos1767@naver.com
 
 # Fallback image and color
-image:               /assets/img/nap.jpg # TODO : 바꾸기
+image:               /assets/img/nap.jpg # TODO
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
