@@ -1,13 +1,17 @@
-## Github Blog
-- [https://zzsza.github.io](https://zzsza.github.io)
-- 이 블로그는 [박민](https://github.com/isme2n/isme2n.github.io)님 블로그 테마를 기반으로 제작되었습니다
-	- 박민님 테마 대비 다른 점은 검색 시스템을 붙인 점입니다
-- 본 테마(혹은 박민님 테마)를 사용하고 싶으신 경우, issue 또는 메일([snugyun01@gmail.com](snugyun01@gmail.com))로 사용 요청을 해주세요. 이 블로그의 소스는 제 피와 땀으로 만들었기 때문에 요청을 주시는 것이 예의라고 생각합니다 :)(사실 요청하신 분들에게 거절할 생각도 없습니다)
+## 블로그를 위해 꼭 알아야 하는 폴더, 파일 구조
+- `_posts` : 글을 마크다운으로 작성해서 저장하는 폴더
+- `about.md` : About 페이지에서 나타날 내용
+- `_featured_categories` : 카테고리 (홈페이지 상의 왼쪽에 노출되는 큰 메뉴)
+- `_featured_tags` : 카테고리의 태그(큰 메뉴의 소제목)
+- favicon.ico : 파비콘 아이콘
+- `_config.yml` : 기본 설정 파일
+- `_data` : 유저 데이터가 저장된 폴더로 author.yml만 수정하면 됨
+- `tile-wide.png`, `tile.png` : 홈페이지의 좌측 배경 이미지
+
+
 
 
 ### Structure
-- 다른 분들이 이 테마를 Fork할 경우, 사용할 수 있도록 블로그 구조에 대해 설명합니다
-
 ```
 ├── README.md
 ├── _config.yml : 기본 설정이 저장된 파일
@@ -38,18 +42,11 @@
 - ```_config.yml```, ```_data```, ```_featured_categories```, ```_featured_tags```, ```about.md``` 내용 수정
 - ```favicon.ico```, ```tile-wide.png```, ```tile.png``` 원하는 이미지로 설정
 
-### 로컬 빌드
-- Ruby가 설치되어 있어야 합니다
-- Ruby 설치는 [공식 문서](https://www.ruby-lang.org/ko/documentation/installation/) 참고
-
-```
-bundle exec jekyll serve
-```
 
 ### 원격 빌드
-- Github 저장소에 Push
+- Github 저장소에 Push하면 Github Action이 빌드
 
 ### 글 작성
-- ```_featured_categories```, ```_featured_tags``` 설정한 후, ```_posts```에 글을 작성합니다
-- 글 제목 형태는 ```2018-01-03-title1.md``` 이런 방식처럼 작성! 날짜를 빼고 쓰면 반영되지 않습니다
+- ```_featured_categories```, ```_featured_tags```에 각각을 추가한 후, ```_posts```에 글을 작성
+- 글 제목 형태는 ```2018-01-03-title1.md``` 이런 방식처럼 작성! 날짜를 빼고 쓰면 반영되지 않음
 
