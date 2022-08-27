@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Basic
 slug: basic
-category: gcp
+category: recommendation
 menu: false
 order: 1
 ---
